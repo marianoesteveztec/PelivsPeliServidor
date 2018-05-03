@@ -2,7 +2,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var cors = require('cors');
-var buscadorControlador = require('./controladores/funcionalidades');
+var buscadorControlador = require('./funcionalidades');
 
 
 var app = express();

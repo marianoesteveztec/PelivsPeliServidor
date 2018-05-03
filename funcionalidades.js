@@ -1,4 +1,4 @@
-var con = require('../lib/conexionbd.js');
+var con = require('./conexionbd.js');
 
 
 function buscarCompetencias(req, res) {

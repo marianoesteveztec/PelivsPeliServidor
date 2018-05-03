@@ -3,7 +3,7 @@ FROM mysql:5.7.15
 MAINTAINER Mariano Estevez
 
 ENV MYSQL_DATABASE=competencias \
-    MYSQL_ROOT_PASSWORD=Marian
+    MYSQL_ROOT_PASSWORD=marian
 
 ADD dump_base_de_datos.sql /docker-entrypoint-initdb.d
 
