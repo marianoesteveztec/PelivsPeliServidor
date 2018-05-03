@@ -16,7 +16,7 @@ ADD package.json /src/package.json
 # Elige el directorio de trabajo
 WORKDIR /src
 
-EXPOSE 8080 3600
+EXPOSE 8080
 
 # Instala dependencias
 RUN npm install
